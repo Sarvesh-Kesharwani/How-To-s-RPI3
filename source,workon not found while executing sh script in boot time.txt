@@ -15,3 +15,22 @@ virtualenv's script activate which resides in perticular enviorment's directory:
 #activate is script
 #activate env with command: "source /path/to/my_env/activate"
 #example: source /home/pi/.virtualencs/picamera-env/bin
+
+
+#activate your_env with these commands:
+workon your-env
+#to find the directory to your_virtualenviorment
+cdvirtualenv picamera-env
+
+#move to bin 
+cd bin
+
+# copy this directory and paste it to a new terminal 
+#NOTE:(it should not have any virtualenv activated)
+
+#and then enter command:
+. activate 
+
+# and it will activate the virtualenviorment who's directory you are currently in 
+
+
