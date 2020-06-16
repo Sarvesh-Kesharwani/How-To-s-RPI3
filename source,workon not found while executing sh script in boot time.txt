@@ -33,4 +33,6 @@ cd bin
 
 # and it will activate the virtualenviorment who's directory you are currently in 
 
-
+#before rebooting and testing on real
+#you can test it by executing it in your terminal with command:
+#sh on_reboot.sh
