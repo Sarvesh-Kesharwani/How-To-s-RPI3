@@ -1,0 +1,22 @@
+#1 
+sudo pip3 uninstall virtualenv virtualenvwrapper
+sudo pip3 install virtualenv virtualenvwrapper=='4.8.4'
+
+#2 add these to end of .bashrc
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv
+source /usr/local/bin/virtualenvwrapper.sh
+export VIRTUALENVWRAPPER_ENV_BIN_DIR=bin  # <== This line fixed it for me
+
+#3 open a new terminal to take effect and
+
+#4 change current-directory to project-folder which you want venv for.
+#to  make a venv with command  
+#mkvirtualenv venv_name
+
+#5 check if its created or not, with command
+#workon
+
+#6 change venv to your_venv using command
+#workon your_venv
