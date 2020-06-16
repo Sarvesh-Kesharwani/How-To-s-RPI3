@@ -11,6 +11,7 @@ replace 'source' with '.' in launcher.sh script
 #####
 
 becoz of some reason we cant use workon on boot-time thatswhy we have to activate a perticular-env with 
-virtualenv's script activate which resides in perticular enviorment's directory: /home/.virtualencs/my_env/bin/activate
+virtualenv's script activate which resides in perticular enviorment's directory: /home/usr_name/.virtualencs/my_env/bin/activate
 #activate is script
 #activate env with command: "source /path/to/my_env/activate"
+#example: source /home/pi/.virtualencs/picamera-env/bin
