@@ -1,3 +1,13 @@
+Just run pip3 install opencv-python==3.4.6.27
+
+##########
+Guys you do not need to install any updates or other libraries. The problem is because the current version of opencv (currently 4.1.1.26) is not compatible with RPi, just run pip3 uninstall opencv-python and then run pip3 install opencv-python==3.4.6.27
+This should sort you out and if you have any issues just check what versions of opencv are compatible with your Raspbian or whatever you are using.
+##########
+
+
+instead of installing latest opencv and having problem of installing these libs.
+
 pip3 install opencv-python
 sudo apt-get install libatlas-base-dev
 sudo apt-get install libjasper-dev
