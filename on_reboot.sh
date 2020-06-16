@@ -3,8 +3,7 @@
 . /home/pi/.profile
 
 #activate your_env
-cd .virtualenvs/picamera-env/bin
-. activate
+. /home/pi/.virtualenvs/picamera-env/bin/activate
 
 #execute your_script
 cd /home/pi/pi/pi-reboot
