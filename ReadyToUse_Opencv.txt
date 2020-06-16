@@ -1,0 +1,3 @@
+install opencv
+install cython
+install python-for-android
